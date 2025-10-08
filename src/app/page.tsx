@@ -31,14 +31,14 @@ export default function HomePage() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-slate-50 p-8">
-      <div className="w-full max-w-2xl rounded-xl bg-white p-10 text-center shadow-lg">
+    <main className="flex min-h-screen flex-col items-center justify-center bg-black p-8">
+      <div className="w-full max-w-2xl rounded-xl bg-gray-900 p-10 text-center shadow-lg">
         
-        <h1 className="text-4xl font-bold text-slate-800 md:text-5xl">
+        <h1 className="text-4xl font-bold text-white md:text-5xl">
           Welcome to My Website
         </h1>
 
-        <p className="mt-4 text-lg text-slate-500">
+        <p className="mt-4 text-lg text-white">
           The content below is hidden until you interact with the page.
         </p>
 
