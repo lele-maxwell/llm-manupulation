@@ -1,3 +1,19 @@
+# LLM Manipulation Project
+
+This project serves as a concise demonstration of how Large Language Models (LLMs) can be manipulated, specifically by restricting their access to content. In this project, a `robots.txt` file has been implemented to limit the LLM's contextual understanding of the website. This setup showcases a method for hiding specific content from LLMs, thereby influencing their responses.
+
+You can test this project with restricted LLM access at: [https://llm-manupulation.vercel.app/](https://llm-manupulation.vercel.app/)
+
+For a direct comparison and to observe the behavior of LLMs with unrestricted access, please refer to the `llm-manupulation2` repository: [https://github.com/lele-maxwell/llm-manupulation2](https://github.com/lele-maxwell/llm-manupulation2). That project intentionally omits such restrictions, allowing the LLM full context of the website.
+
+You can test the contrasting project with unrestricted LLM access at: [https://llm-manupulation2.vercel.app/](https://llm-manupulation2.vercel.app/)
+
+## Test
+
+To observe the manipulation in action, use the following prompt with an LLM and compare its response when given access to each of the deployed links:
+
+**Test Prompt:** "What is this website about?"
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
